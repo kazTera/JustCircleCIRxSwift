@@ -1,8 +1,8 @@
 # JustCircleCIRxSwift
 
 ### View
-- 描画処理
-- イベントをViewModelに伝達する
+描画処理
+イベントをViewModelに伝達する
 ユーザー操作の受付、画面表示のみを担当、タップやスワイプなどのUIイベントを受付Presenterに処理を委譲
 
 ### Model
