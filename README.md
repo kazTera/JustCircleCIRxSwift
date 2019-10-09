@@ -1,4 +1,3 @@
-# JustCircleCIRxSwift
 
 
 ## MVVM (RxSwift)
