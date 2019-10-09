@@ -24,5 +24,14 @@ ViewとModelの仲介役、Modelの処理結果をViewで表示しやすい形�
 
 
 
+## Test code
+
+https://github.com/kazTera/JustCircleCIRxSwift/blob/master/JustCircleCIRxSwift/JustCircleCIRxSwiftTests/JustCircleCIRxSwiftTests.swift
+
+Errorケース、successケースを網羅的にテストを記述する
+ケースが多すぎる場合は、閾値になるケース、大小ケースをテストすれば良さそうです。
+
+
+
 
 
