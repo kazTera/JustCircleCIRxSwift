@@ -6,6 +6,10 @@ target 'JustCircleCIRxSwift' do
   use_frameworks!
   pod 'RxSwift'
   pod 'RxCocoa'
+  pod 'Firebase/Analytics'
+  pod 'Firebase'
+  pod 'Firebase/Messaging'
+  pod 'Firebase/Core'
 
   # Pods for JustCircleCIRxSwift
 

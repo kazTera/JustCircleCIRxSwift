@@ -1,0 +1,8 @@
+app_identifier("jp.com.bbo.JustCircleCIRxSwift") # The bundle identifier of your app
+apple_id("kyamamoto@bbo.co.jp") # Your Apple email address
+
+itc_team_id("119033305") # App Store Connect Team ID
+team_id("K3ZMT4H85J") # Developer Portal Team ID
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile
