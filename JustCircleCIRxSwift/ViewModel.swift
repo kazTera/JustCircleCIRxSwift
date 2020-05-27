@@ -38,7 +38,7 @@ final class ViewModel {
                 return .empty()
             }
         }
-        .startWith("IDとPasswordを入力してください")
+        .startWith(String().ex.plzInsertText)
         
         self.loadLabelColor = event
             .flatMap{ event -> Observable<UIColor> in
