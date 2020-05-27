@@ -25,6 +25,7 @@ final class ViewModel {
             return model.validate(id: id, password: pass)
                 .materialize()
         }
+        .skip(1)
         .share()
         
         self.validationText = event.flatMap{ event -> Observable<String> in
@@ -37,7 +38,7 @@ final class ViewModel {
                 return .empty()
             }
         }
-  //  .startWith("IDとPasswordを入力してください")
+        .startWith("IDとPasswordを入力してください")
         
         self.loadLabelColor = event
             .flatMap{ event -> Observable<UIColor> in
